@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bg-black {
+        background-color: black;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <!-- <div >
+    <h1 id="title" class="heading">"DOM learning"</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet fdv.</p>
+  </div> -->
+    <div class="parent">
+      <div class="day">mon</div>
+      <div class="day">tues</div>
+      <div class="day">wed</div>
+      <div class="day">thus</div>
+    </div>
+    <!-- <script src="style.js"></script> -->
+    <script>
+      const Parent = document.querySelector(".parent");
+      console.log(Parent);
+      //--------------------
+      const Parent1 = document.querySelector(".parent");
+      console.log(Parent1.children[1]);
+      //----------------
+      parent.children[2].style.color = "orange";
+    </script>
+  </body>
+</html>

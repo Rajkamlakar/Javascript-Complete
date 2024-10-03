@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: black;color: white;">
+  <ul class="Language">
+    <li>javascript</li>
+    <li>java</li>
+    <li>css</li>
+    <li>python</li>
+  </ul>
+
+  <script>
+    function addlanguage(LanguageName){
+      const li=document.createElement('li');
+      li.appendChild(document.createTextNode(LanguageName))
+      document.querySelector('.language').appendChild(li)
+    }
+    addlanguage('HTMl')
+    //edit
+    const firstname=document.querySelector("li:first-child")
+    firstname.outerHTML='<li>Typescript</li>'
+  </script>
+</body>
+</html>
